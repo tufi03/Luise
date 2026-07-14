@@ -7,21 +7,3 @@ giftButton.addEventListener("click", () => {
 
 });
 
-
-const giftButton =
-document.getElementById("giftButton");
-
-
-if(distance <= 0){
-
-    clearInterval(countdown);
-
-
-    document.getElementById("countdown").innerHTML =
-    "Happy Birthday Luise ❤️";
-
-
-    giftButton.style.display =
-    "inline-block";
-
-}
