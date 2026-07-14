@@ -31,8 +31,16 @@ linear-gradient(
 
 .container{
 
-text-align:center;
-z-index:2;
+    text-align:center;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    width:100%;
+
+    z-index:2;
 
 }
 
@@ -67,18 +75,18 @@ margin-bottom:50px;
 
 #gift{
 
-position:relative;
+    position:relative;
 
-width:220px;
-height:220px;
+    width:220px;
+    height:220px;
 
-cursor:pointer;
+    margin:0 auto;
 
-transition:.3s;
+    cursor:pointer;
+
+    transition:.3s;
 
 }
-
-
 
 #gift:hover{
 
