@@ -1,0 +1,36 @@
+#giftButton{
+
+    margin-top:30px;
+
+    padding:15px 35px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#ff7eb9;
+
+    color:white;
+
+    font-size:22px;
+
+    font-family:'Caveat', cursive;
+
+    cursor:pointer;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,.2);
+
+    transition:.3s;
+
+}
+
+
+
+#giftButton:hover{
+
+    transform:scale(1.1);
+
+    background:#ff5fa2;
+
+}
