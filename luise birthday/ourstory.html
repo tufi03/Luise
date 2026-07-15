@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Our Story 🌸</title>
+
+
+<link rel="stylesheet" href="css/ourstory.css">
+<link rel="stylesheet" href="css/player.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+
+
+<!-- BACKGROUND -->
+
+<div id="background">
+
+    <div id="floatingPetals"></div>
+
+    <div id="sparkles"></div>
+
+</div>
+
+<div id="player">
+
+    <button id="toggle">
+        🎵
+    </button>
+
+    <div id="panel">
+        <p id="songTitle">
+        </p>
+
+        <div id="disc">
+            💿
+        </div>
+
+        <div id="controls">
+
+            <button id="back">⏮</button>
+            <button id="play">▶</button>
+            <button id="forward">⏭</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- INTRO -->
+
+<section id="intro">
+
+<h1>
+Click the petals
+</h1>
+
+<p>
+there might be something hidden inside
+</p>
+
+</section>
+
+
+
+
+
+
+<!-- FLOWER -->
+
+<section id="flowerScene">
+
+
+<div id="flower">
+
+
+    <!-- PETALS -->
+
+    <div class="petal petal1 active" data-index="0">
+
+        <span>
+        1
+        </span>
+
+    </div>
+
+
+    <div class="petal petal2 locked" data-index="1">
+
+        <span>
+        2
+        </span>
+
+    </div>
+
+
+    <div class="petal petal3 locked" data-index="2">
+
+        <span>
+        3
+        </span>
+
+    </div>
+
+
+    <div class="petal petal4 locked" data-index="3">
+
+        <span>
+        4
+        </span>
+
+    </div>
+
+
+    <div class="petal petal5 locked" data-index="4">
+
+        <span>
+        5
+        </span>
+
+    </div>
+
+
+    <div class="petal petal6 locked" data-index="5">
+
+        <span>
+        6
+        </span>
+
+    </div>
+
+
+
+
+
+    <!-- CENTER -->
+
+    <div id="flowerCenter">
+
+    </div>
+
+
+
+
+    <!-- STEM -->
+
+    <div id="stem"></div>
+
+
+    <div id="leafLeft"></div>
+
+    <div id="leafRight"></div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- MEMORY -->
+
+<div id="memoryOverlay">
+
+
+<div id="memoryCard">
+
+
+<button id="closeMemory">
+
+×
+
+
+</button>
+
+
+<h2 id="memoryTitle">
+
+</h2>
+
+
+<p id="memoryText">
+
+</p>
+
+
+<button id="nextPetal">
+
+next bitch
+
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- END -->
+
+<section id="ending">
+
+
+<h1>
+I LOVE YOU SO MUCH
+</h1>
+
+
+<p>
+crazy song choice but its fire
+</p>
+
+
+<button id="continueButton">
+
+Continue Baddie
+
+</button>
+
+
+</section>
+
+<script>
+const pageSong = 2;
+const autoPlaySong = true;
+</script>
+
+
+
+<script src="js/ourstory.js"></script>
+<script src="js/player.js"></script>
+
+</body>
+
+
+</html>
